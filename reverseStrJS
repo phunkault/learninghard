@@ -1,0 +1,9 @@
+const reverse  = (str) => {
+  let result = '';
+  let currentSymbol = str.length - 1;
+  while (currentSymbol >= 0) {
+    result = result + str[currentSymbol];
+    currentSymbol = currentSymbol - 1;
+  }
+  return result;
+}
